@@ -1,0 +1,75 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# uv
+.uv/
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Test and coverage output
+.pytest_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+
+# Type checking and linting caches
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.ruff_cache/
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+MANIFEST
+
+# Application runtime output
+*.log
+logs/
+uploads/
+tmp/
+temp/
+*.sqlite
+*.sqlite3
+*.db
+
+# Documentation and tooling output
+.tox/
+.nox/
+.cache/
+site/
+
+# IDE and editor files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
