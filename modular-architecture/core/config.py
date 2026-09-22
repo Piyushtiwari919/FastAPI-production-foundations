@@ -1,0 +1,1 @@
+# Here we put and validates the Environment Variables
